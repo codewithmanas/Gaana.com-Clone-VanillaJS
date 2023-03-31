@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color-hover: #de2d31;
+    --primary-color: #e72c30;
+    --dark-black: #1B1B1B;
+    --faded-black: #222428;
+    --smoke-white: #D2D3D4;
+    --footer-black: #282B2F;
+}
+
+body {
+    width: 100%;
+    background-color: var(--dark-black);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    background-color: var(--faded-black);
+    color: #fff;
+}
+
+.header__container {
+    width: 100%;
+}
+
+.main__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.ham__logo {
+    color: #8E8E93;
+}
+
+.main__logo {
+    display: flex;
+    align-items: center;
+}
+.nav__bar {
+    width: 100%;
+    background-color: var(--dark-black);
+   
+}
+
+.nav__menu {
+    display: flex;
+    align-items: center;
+    padding: 10px 40px;
+
+}
+
+.search__input {
+    display: flex;
+    align-items: center;
+    background-color: var(--dark-black);
+    color: #8E8E93;
+    border-radius: 20px;
+    padding: 5px 10px;
+    width: 300px;
+}
+
+.search__input > input { 
+    width: 100%;
+    background-color: var(--dark-black);
+    color: #8E8E93;
+    border: none;
+    outline: none;
+    padding-left: 5px;
+    
+}
+
+.gaana__plus__btn, .ad__btn {
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.light__mode > svg {
+    fill: #fff;
+}
+
+.user__login {
+    color: #AEAFB0;
+    background-color: var(--faded-black);
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+.nav__bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav__menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav__links {
+    margin-right: 20px;
+}
+
+main {
+    width: calc(100% - 400px);
+    /* background-color: green; */
+}
+.main__container {
+    margin-left: 40px;
+    width: 860px;
+    /* height: 400px; */
+    /* background-color: red; */
+    margin-bottom: 60px;
+}
+
+.top__cover {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+}
+
+.top__cover img {
+    width: 450px;
+}
+
+.trending__songs {
+    margin-top: 40px;
+}
+
+.trending__songs__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.trending__songs__header p {
+    color: var(--primary-color);
+}
+
+.songs__list {
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.songs__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.songs__box .song__title {
+    text-align: left;
+}
+
+
+.songs__box img {
+    border-radius: 6px;
+}
+
+/* utility */
+
+.songs__type {
+    margin-top: 40px;
+}
+
+.songs__type .songs__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.songs__type .songs__list {
+    display: flex;
+    overflow-x: scroll;
+    gap: 20px;
+}
+
+.songs__type .songs__list .songs__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.songs__type .songs__list .songs__box img {
+    border-radius: 6px;
+}
+
+
+/* footer */
+.footer__container {
+    background-color: var(--footer-black);
+    margin-left: 40px;
+    width: 860px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer__navigations {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.footer__heading {
+    margin: 40px auto;
+}
+.footer__heading h2 {
+    text-align: center;
+}
+
+
+.footer__details {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.footer__details p {
+    margin: auto 60px;
+}
+
+
+
+
+
+
+
+
