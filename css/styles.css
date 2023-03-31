@@ -55,6 +55,7 @@ a {
 .main__logo {
     display: flex;
     align-items: center;
+    color: var(--primary-color);
 }
 .nav__bar {
     width: 100%;
@@ -173,14 +174,9 @@ main {
 .songs__box {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start !important;
     border-radius: 10px;
 }
-
-.songs__box .song__title {
-    text-align: left;
-}
-
 
 .songs__box img {
     border-radius: 6px;
@@ -230,6 +226,7 @@ main {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 20px;
 }
 
 .footer__socials {
@@ -257,6 +254,22 @@ main {
 .footer__details p {
     margin: auto 60px;
 }
+
+hr {
+    border-top: 1px solid var(--smoke-white);
+    width: 60%;
+    margin: 0 auto;
+}
+/* .sub__footer {
+    border-top: 1px solid var(--smoke-white);
+} */
+.sub__footer p {
+    font-size: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
 
 
 
