@@ -34,6 +34,8 @@ a {
     width: 100%;
     background-color: var(--faded-black);
     color: #fff;
+    position: sticky;
+    top: 0px;
 }
 
 .header__container {
